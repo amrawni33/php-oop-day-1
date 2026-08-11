@@ -1,1 +1,23 @@
+# Dependencies
 /vendor/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
